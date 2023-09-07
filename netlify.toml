@@ -4,6 +4,10 @@
 
 [[plugins]]
 
+<<<<<<< Updated upstream
+=======
+	
+>>>>>>> Stashed changes
 	# Opt-in to the Netlify Lighthouse plugin (choose one):
 
 	# 1. Go to your site on https://app.netlify.com and navigate to the Integrations tab, search for the `Lighthouse` plugin
@@ -21,4 +25,8 @@
 		seo = 1.0
 
 	[plugins.inputs]
+<<<<<<< Updated upstream
 		output_path = "reports/lighthouse/index.html"
+=======
+		output_path = "reports/lighthouse/index.html"
+>>>>>>> Stashed changes
