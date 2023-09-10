@@ -9,12 +9,6 @@ numberOfLatestPostsToShow: 3
 <h1>Hello & Welcome</h1>
 <p> Thank you for checking out my website. Take a look at my About page to find out more about me!</p>
 
-
-
-<h1>Hello & Welcome</h1>
-<p> Thank you for checking out my website. Take a look at my About page to find out some more about me!</p>
-
-
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h2>My Latest Blog</h2>
