@@ -4,14 +4,14 @@ permalink: /feed/feed.json
 ---
 {
 	"version": "https://jsonfeed.org/version/1.1",
-	"title": "{{ metadata.title }}",
-	"language": "{{ metadata.language }}",
-	"home_page_url": "{{ metadata.url | addPathPrefixToFullUrl }}",
-	"feed_url": "{{ permalink | htmlBaseUrl(metadata.url) }}",
-	"description": "{{ metadata.description }}",
+	"title": "Rebecca Rose Parry's Blog",
+	"language": "EN",
+	"home_page_url": "https://crafty-rero.netlify.app/",
+	"feed_url": "https://crafty-rero.netlify.app/",
+	"description": "Eleventy Base Blog for Rebecca Rose Parry",
 	"author": {
-		"name": "{{ metadata.author.name }}",
-		"url": "{{ metadata.author.url }}"
+		"name": "Rebecca Rose Parry",
+		"url": "https://crafty-rero.netlify.app/"
 	},
 	"items": [
 		{%- for post in collections.posts | reverse %}
