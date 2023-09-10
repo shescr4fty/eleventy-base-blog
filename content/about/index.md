@@ -6,4 +6,22 @@ eleventyNavigation:
 ---
 # About Me
 
-I am a person that writes stuff.
+<a><img src="/public/img/PXL_20230701_184329265~2.jpg" class="img-thumbnail" alt="an image of Rebecca"></a>
+
+## Biography
+
+I am currently employed as an Executive Assistant, however am keen to pursue a career as a DevOps Engineer where I will be able to use my creativity, attention to detail and problem solving skills to produce quality and functional code.
+
+In my spare time, I enjoy; crafting, travelling, spa days, attending live music events and spending time with family, friends and my cat-child Stina.
+
+
+## Skills & Knowledge
+
+ <ul>
+      <li>HTML/ CSS.</li>
+        <li>Able to work proactively & reactively.</li>
+        <li>Organised.</li>
+        <li>Good communicator.</li>
+        <li>Fast learner and eager to develop and grow.</li>
+      </ul>
+
