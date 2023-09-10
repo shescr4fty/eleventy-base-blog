@@ -1,6 +1,6 @@
 ---
 title: Welcome to my blog.
-description: This is mt first blog post welcoming to my page.
+description: This is mt first blog post welcoming you to my page.
 date: 2023-09-10
 tags:
   - my blogs
