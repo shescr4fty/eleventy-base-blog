@@ -3,11 +3,18 @@ layout: layouts/home.njk
 eleventyNavigation:
   key: Home
   order: 1
-numberOfLatestPostsToShow: 3
+numberOfLatestPostsToShow: 1
 ---
+<p><a><img href="./img/home-logo.jpg" src="./img/home-logo.jpg" alt="image of my logo"></a>
+</p>
+<h1> Hello and Welcome!</h1>
+<p> Thank you for checking out my website. Take a look at my About page to find out some more about me!</p>
+
+
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h2>My Latest Blog{% if latestPostsCount != 1 %}s{% endif %}</h2>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
@@ -15,7 +22,7 @@ numberOfLatestPostsToShow: 3
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
+<p> Read more in <a href="/blog/">my blogs</a>.</p>
 {% endif %}
 
 {# List every content page in the project #}
@@ -26,3 +33,6 @@ numberOfLatestPostsToShow: 3
 	{%- endfor %}
 </ul>
 #}
+
+<h4>Why did the web designer storm out of the restaurant?</h4>
+<h4> <em>She was offended by the table layout.</em></h4>
