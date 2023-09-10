@@ -1,12 +1,12 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: About
+  key: About Me
   order: 2
 ---
 # About Me
 
-<a><img src="/img/about-me-image.jpg" alt= "a photo of me"></a>
+<a><img src="[C:\Users\becca\OneDrive\Documents\GitHub\eleventy-base-blog\public\img\PXL_20230701_184329265~2.jpg]" class="img-thumbnail" alt="an image of Rebecca"></a>
 
 ## Biography
 
@@ -28,5 +28,3 @@ In my spare time, I enjoy; crafting, travelling, spa days, attending live music 
 
 
 [def]: public/img/PXL_20230701_184329265~2.jp
-[def2]: Users\becca\OneDrive\Documents\GitHub\eleventy-base-blog\public\img\PXL_20230701_184329265~2.jp
-[def3]: def2
