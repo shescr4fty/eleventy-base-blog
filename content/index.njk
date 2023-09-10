@@ -13,9 +13,14 @@ numberOfLatestPostsToShow: 3
 
 
 >>>>>>> Stashed changes
+
+<h1>Hello & Welcome</h1>
+<p> Thank you for checking out my website. Take a look at my About page to find out some more about me!</p>
+
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h2>My Latest Blog</h2>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
