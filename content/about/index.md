@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 # About Me
 
-<a><img src="/public/img/PXL_20230701_184329265~2.jpg" class="img-thumbnail" alt="an image of Rebecca"></a>
+<a><img src="[C:\Users\becca\OneDrive\Documents\GitHub\eleventy-base-blog\public\img\PXL_20230701_184329265~2.jpg]" class="img-thumbnail" alt="an image of Rebecca"></a>
 
 ## Biography
 
@@ -25,3 +25,6 @@ In my spare time, I enjoy; crafting, travelling, spa days, attending live music 
         <li>Fast learner and eager to develop and grow.</li>
       </ul>
 
+
+
+[def]: public/img/PXL_20230701_184329265~2.jp
