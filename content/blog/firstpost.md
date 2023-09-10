@@ -1,26 +1,17 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: Welcome to my blog.
+description: This is mt first blog post welcoming to my page.
+date: 2023-09-10
 tags:
-  - another tag
+  - my blogs
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Thank you for visiting my page and joining me on my web design and development journey! 
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+## My journey so far...
 
-## Section Header
+My interest in web design and development first started when I came accross the Free Code Camp website, which offers short training courses in html and css. 
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+After completing a few of their lessons, I was keen to learn more and found that The Coders Guild offer an 8 week Skills Bootcamp Course in Web Design and Development. 
 
-```diff-js
- // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
+I'll keep you all posted with my progress here on my blog page.
 
- // Test with a line break above this line.
- console.log('Test');
-```
