@@ -5,8 +5,8 @@ eleventyNavigation:
   order: 2
 ---
 # About Me
-
-<p><img src="/public/img/PXL_20230701_184329265~2.ext" href="/public/img/PXL_20230701_184329265~2.ext" alt="an image of Rebecca"></P>
+<div class="text-center">
+<p><img src="../img/PXL_20230701_184329265~2.jpg" class="img-thumbnail" alt="an image of Rebecca"></P> </div>
 
 ## Biography
 
