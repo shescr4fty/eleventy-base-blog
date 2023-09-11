@@ -6,9 +6,10 @@ eleventyNavigation:
 numberOfLatestPostsToShow: 3
 ---
 
+
 <h1>Hello & Welcome</h1>
 <p>
-    Thank you for checking out my website. Take a look at my About page to find out more about me!</p>
+  Thank you for checking out my website. Take a look at my About page to find out more about me!</p>
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h2>My Latest Blog</h2>
@@ -17,9 +18,9 @@ numberOfLatestPostsToShow: 3
 {% include "postslist.njk" %}
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-    <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %}
-        can be found in
-        <a href="/blog/">the archive</a>.</p>
+  <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %}
+    can be found in
+    <a href="/blog/">the archive</a>.</p>
 {% endif %}
 {# List every content page in the project #}
 {#
