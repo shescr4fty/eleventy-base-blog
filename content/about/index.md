@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 # About Me
 
-<a><img src="[C:\Users\becca\OneDrive\Documents\GitHub\eleventy-base-blog\public\img\PXL_20230701_184329265~2.jpg]" class="img-thumbnail" alt="an image of Rebecca"></a>
+<p><img src="/public/img/PXL_20230701_184329265~2.ext" href="/public/img/PXL_20230701_184329265~2.ext" alt="an image of Rebecca"></P>
 
 ## Biography
 
