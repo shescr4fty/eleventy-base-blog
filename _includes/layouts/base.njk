@@ -8,6 +8,7 @@
             rel="stylesheet"
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
             crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>{{ title or metadata.title }}</title>
         <meta
         name="description" content="{{ description or metadata.description }}"> {#- Atom and JSON feeds included by default #}
@@ -59,7 +60,11 @@
         <main id="skip">
             {{ content | safe }}
         </main>
-        <footer></footer>
+        <footer>
+<div class= text-center> <a name="LIprof" href="https://www.linkedin.com/in/rebecca-parry-aa07459a/" class="fa fa-linkedin"></a>
+<a name="instaprof" href="https://www.instagram.com/_shes.crafty_/" class="fa fa-instagram"></a>
+</div>
+        </footer>
         <!-- Current page: {{ page.url | htmlBaseUrl }} -->
     </body>
     <script
