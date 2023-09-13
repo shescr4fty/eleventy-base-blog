@@ -4,15 +4,25 @@ eleventyNavigation:
   key: About
   order: 2
 ---
+<head><link rel="stylesheet" href="../css/about.css"></head>
+
 # About Me
-<div class="text-center">
-<p><img src="../img/PXL_20230701_184329265~2.jpg" class="img-thumbnail" alt="an image of Rebecca"></P> </div>
 
-## Biography
+<div name= "biocard" class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img name="me123" src="../img/PXL_20230701_184329265~2.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title">Biography</h2>
+        <p class="card-text">I am currently employed as an Executive Assistant, however am keen to pursue a career as a DevOps Engineer where I will be able to use my creativity, attention to detail and problem solving skills to produce quality and functional code.
 
-I am currently employed as an Executive Assistant, however am keen to pursue a career as a DevOps Engineer where I will be able to use my creativity, attention to detail and problem solving skills to produce quality and functional code.
-
-In my spare time, I enjoy; crafting, travelling, spa days, attending live music events and spending time with family, friends and my cat-child Stina.
+In my spare time, I enjoy; crafting, travelling, spa days, attending live music events and spending time with family, friends and my cat-child Stina..</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 ## Skills & Knowledge
