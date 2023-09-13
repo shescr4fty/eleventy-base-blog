@@ -9,15 +9,24 @@ Hello from contact page ! <form name="contact" netlify>
     <div name="message" class="container">
         <div class="row">
             <div class="col-12 mx-auto">
-                <h2 class="text-center">Hello from contact</h2>
+                <h2 class="text-center">Want to know more or have any questions? Please contact me!</h2>
+                 <div class="mb-3">
+                    <label for="messageBoxfn" class="form-label">First Name</label>
+                    <input name="first name" type="text" class="form-control" id="messageBoxfn" placeholder="First name"></div> <div class="mb-3">
+                    <label for="messageBoxsn" class="form-label">Surname</label>
+                    <input name="surname" type="text" class="form-control" id="messageBoxsn" placeholder="Surname"></div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></div>
+                    <label for="messageBoxemail" class="form-label">Email address</label>
+                    <input name="email" type="email" class="form-control" id="messageBoxemail" placeholder="name@example.com" input="required"></div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="messageBoxmessage" class="form-label">Message</label>
+                        <textarea name= "message" class="form-control" id="messageBoxmessage" rows="3" placeholder="Hello!" input="required"></textarea>
                     </div>
                 </div>
+                 <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+    <label class="form-check-label" for="exampleCheck1">I agree to Terms and Conditions</label>
+  </div>
             </div>
         </div>
         <p>
