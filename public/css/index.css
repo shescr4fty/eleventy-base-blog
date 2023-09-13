@@ -27,9 +27,9 @@
 		--color-gray-90: #545454;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--text-color-link: #9f14fb;
+		--text-color-link-active: rgb(243, 243, 161);
+		--text-color-link-visited: #f307b4;
 
 		--background-color: #C4BAE6;
 	}
