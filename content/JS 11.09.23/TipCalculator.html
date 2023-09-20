@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/index.js"></script>
+</head>
+<body>
+    <h1>Tip Calculator</h1>
+    <p>Please enter your bill amount and desired tip percentage into the alerts box when prompted to find out your total bill.</p>
+    <script>
+const inputNum = prompt('Please enter the bill amount')
+const inputPerc = prompt('Please enter what % tip you would like to leave - we reccomment 10% (please use only numbers)')
+    tipCalculator = (inputNum, inputPerc) 
+        const calcValue = (((+inputNum / 100) * +inputPerc));
+        const billTotal =(+calcValue+ +inputNum)
+        // let roundBillTot = billTotal.tofixed(2) 
+        alert (`A ${inputPerc}% tip on a £${inputNum} bill would be £${calcValue}. This brings your total bill (including tip) to £${billTotal}`)
+    document.write(`A ${inputPerc}% tip on a £${inputNum} bill would be £${calcValue}. This brings your total bill (including tip) to £${billTotal}.`)
+    </script>
+</body>
+</html>

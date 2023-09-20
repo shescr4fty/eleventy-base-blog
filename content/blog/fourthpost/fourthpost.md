@@ -1,16 +1,15 @@
 ---
-title: This is my fourth post.
-description: This is a post on My Blog about touchpoints and circling wagons.
-date: 2018-09-30
-tags: second tag
+title: My Introduction to JavaScript.
+description: This is a post on My Blog about my introduction to using JavaScript.
+date: 2023-09-11
+tags: my blogs
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+During The Coders Guild Bootcamp session on 11th September, we were introduced to JavaScript. 
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+I learnt about variables/ data types, the console and arithmetic operators. I also learnt the importance of breaking instructions down into simple precise actions when using JavaScript.  
 
-{% image "./possum.png", "A possum parent and two possum kids hanging from the iconic red balloon" %}
+Following this session, we were tasked with creating a tip calculator which generated an output to our webpage, using variables for the pre-tip total and the desired tip percentage.
 
-## Section Header
+At first I found JavaScript a little difficult to get my head around, but with practice and by putting my methodiacal skills to good use it is making much more sense. I am determined to become a JS pro! 
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
+<a href="../../JS 11.09.23/TipCalculator.html/">Here is my Tip Calculator</a>
